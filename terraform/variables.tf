@@ -1,7 +1,6 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  # default     = "eu-west-1"
   default = "eu-west-1"
 }
 
@@ -45,7 +44,6 @@ variable "iam-role" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  # default     = "ami-0c7217cdde317cfec" // Replace with the latest AMI ID for your region
   default = "ami-0607a9783dd204cae" // Replace with the latest AMI ID for your region
 }
 
